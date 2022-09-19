@@ -1,0 +1,50 @@
+{
+  "troops": [
+    {
+      "name": "Monkey",
+      "type": "ground",
+      "damage": 6,
+      "health": 50,
+      "target": "ground",
+      "derivedTroops": [
+        {
+          "name": "Flying Monkey",
+          "type": "air",
+          "target": "air"
+        }
+      ]
+    },
+    {
+      "name": "Wizard",
+      "type": "ground",
+      "damage": 6,
+      "health": 60,
+      "target": "all",
+      "derivedTroops": []
+    },
+    {
+      "name": "Balloon",
+      "type": "air",
+      "damage": 8,
+      "health": 55,
+      "target": "ground",
+      "derivedTroops": []
+    },
+    {
+      "name": "New Troop",
+      "type": "ground",
+      "damage": 0,
+      "health": 0,
+      "target": "ground",
+      "derivedTroops": []
+    },
+    {
+      "name": "New Troop",
+      "type": "ground",
+      "damage": 0,
+      "health": 0,
+      "target": "ground",
+      "derivedTroops": []
+    }
+  ]
+}
